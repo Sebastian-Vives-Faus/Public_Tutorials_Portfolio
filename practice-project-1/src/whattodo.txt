@@ -1,0 +1,16 @@
+
+Components:
+
+Form with:
+    - Username [string]
+    - Age (years) [number]
+    - Submit user "Add User"
+        * Has the following validations:
+            - Cant be empty
+            - Age cant be negative
+        * Validation errors will be showed as Modal alerts
+        * When submitted correctly, the form will be reset
+
+UserList
+    - UserItem "[Name] ([Age] years old)"
+    * No extra methods
